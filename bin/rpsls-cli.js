@@ -21,9 +21,9 @@ try{
 }catch (e){
   help();
   rules();
-  console.log(`Invalid input, please use inputs below: 
-    -h, --help      display this help message and exit
-    -r, --rules     display the rules and exit`);
+  // console.log(`Invalid input, please use inputs below: 
+  //   -h, --help      display this help message and exit
+  //   -r, --rules     display the rules and exit`);
   process.exit(1);
 }
 
